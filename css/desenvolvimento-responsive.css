@@ -1,0 +1,20 @@
+@media (min-width: 768px){
+    .block{
+        position: absolute;
+        width: 50px;
+        height: 100px;
+        background-color: #7b43fe;
+        border-radius: 10%;
+        box-shadow: 10px 10px 50px  #00000085;
+    }
+    .oque-e-flex{
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 80px;
+    }
+    .oque-e-box{
+    width: 45%;
+    }
+}

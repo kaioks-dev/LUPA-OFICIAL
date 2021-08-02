@@ -1,0 +1,175 @@
+.header{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.header h2{
+    margin-top: 100px;
+    position: relative;
+    font-size: 7vw;
+    text-align: center;
+    line-height: 0.9em;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.header h2 span{
+    color: transparent;
+    -webkit-text-stroke: 0.3vw #7b43fe;
+}
+.header .black{
+    position: absolute;
+    top: 0;
+    left: 23%;
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+    mix-blend-mode: difference;
+    border-radius: 100px 100px 100px 100px;
+}
+.logo{
+    width: 100%;
+    height: 0px;
+    text-align: center;
+    z-index: 999;
+    position: relative;
+}
+.logo img{
+    width: 100%;
+    max-width: 411px;
+}
+.gestoes-ads{
+    padding: 70px 0;
+    width: 100%;
+    height: auto;
+}
+.gestoes-ads h2{
+    width: 100%;
+    text-align: center;
+    font-size: 6rem;
+    color: #84bc01;
+}
+.gestoes-ads p{
+    width: 100%;
+    font-size: 1.6rem;
+    text-align: center;
+    color: #7b43fe;
+}
+.gestao-flex{
+    margin-top: 80px;
+    width: 100%;
+    height: auto;
+}
+.gestao-box{
+    text-align: center;
+    width: 100%;
+    height: 250px;
+    background-color: #fff;
+    padding: 10px;
+    margin: 0 15px;
+    border-radius: 10px;
+    transition: .5s;
+}
+.gestao-box span{
+    position: relative;
+    top: -35px;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: #7b43fe;
+    text-align: center;
+    color: #fff;
+    font-size: 4rem;
+    transition: .5s;
+}
+.gestao-box h3{
+    color: #84bc01;
+    margin-top: 15px;
+    font-size: 2rem;
+}
+.gestao-box p{
+    color: #7b43fe;
+    margin-top: 25px;
+}
+.oq-fazemos{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding-top: 60px;
+}
+.oq-box{
+    width: 100%;
+    height: 220px;
+    background-color: #fff;
+    margin: 25px 0;
+    text-align: center;
+    transition: .5s;
+    border-radius: 0 35px 35px 0;
+}
+.oq-box span{
+    position: relative;
+    padding: 25px;
+    background-color: #7b43fe;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 3rem;
+    transition: .5s;
+}
+
+.oq-box h3{
+    padding-bottom: 10px;
+    width: 100%;
+    margin-top: 50px;
+    color: #84bc01;
+    border-bottom: 1px solid #84bc01;
+    font-size: 1.4rem;
+    margin-bottom: 8px;
+    transition: .5s;
+}
+
+.oq-box p{
+    color: #7b43fe;
+}
+.campanhas-g-ads{
+    width: 100%;
+    height: auto;
+    background: linear-gradient(-45deg, #84bc01, #7b43fe);
+}
+.g-ads-flex{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.g-ads-box{
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+}
+.g-ads-box img{
+    width: 100%;
+}.g-ads-box h2{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 100;
+    color: #fff;
+}
+.g-chamada{
+    width: 100%;
+    height: 200px;
+}
+.g-chamada > #container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+}
+.g-chamada span{
+    font-size: clamp(2rem, 3rem, 6rem);
+    color: #7b43fe;
+}

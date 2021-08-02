@@ -1,0 +1,210 @@
+@media (min-width: 768px){
+    header{
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient(139deg, #6a41c9, #84bc01);
+    }
+    header .shape{
+        background-image: url('../img/shap.png');
+        background-position: bottom;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        background-size: contain;
+    }
+    .header-sup{
+        width: 100%;
+        height: 170px;
+    }
+    .logo{
+        width: 200px;
+    }
+    .logo img{
+        width: 100%;
+    }
+    .nvjr span{
+        position: relative;
+        top: 100px;
+        float: right;
+        color: #fff;
+        font-size: 2rem;
+    }
+    .slide{
+        width: 100%;
+    }
+    .chamada{
+        width: 70%;
+    }
+    .chamada span{
+        color: #fff;
+        font-size: 1.6rem;
+        font-weight: 600;
+        border-bottom: 2px solid #84bc01;
+    }
+    .chamada h1{
+        color: #fff;
+        font-size: clamp(2.5rem, 4.5rem, 6rem);
+        font-weight: 500;
+        margin-bottom: 15px;
+    }
+    .chamada p{
+        color: #fff;
+        font-size: 1.2rem;
+        margin-bottom: 25px;
+    }
+    .header-services{
+        width: 100%;
+        height: 200px;
+        display: flex;
+    }
+    .services-box{
+        width: 28%;
+        padding: 10px;
+        height: auto;
+        margin: auto;
+        transition: 0.5s ease-in-out;
+    }
+    .services-box > .icon{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .services-box > .icon i{
+        color: #fff;
+        font-size: 3.5rem;
+        padding: 10px 15px 0;
+    }
+    .service-chamada{
+        width: 90%;
+        height: auto;
+        margin: left;
+    }
+    .service-chamada h3{
+        color: #fff;
+        font-size: 1.8rem;
+        font-weight: 200;
+        margin-bottom: 10px;
+    }
+    .service-chamada p{
+        color: #fff;
+        font-size: 1.2rem;
+        line-height: 20px;
+        font-weight: 100;
+        margin-bottom: 25px;
+    }
+    .services-box ul{
+    list-style: none;
+    display: none;
+    }
+    .services-box  li{
+        color: #84bc01;
+        font-size: 1.3rem;
+        padding: 5px 0;
+        font-weight: 400;
+    }
+    .services-box a{
+        display: none;
+        color: #6a41c9;
+        text-decoration: none; 
+        font-size: 1.2rem;
+        padding: 10px 0 0;
+    }
+    .services-box:hover{
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 1px 1px 27px -10px #2d2d2e;
+    }
+    .services-box:hover > ul{
+        display: block;
+    }
+    .services-box:hover a{
+        display: block;
+    }
+    .services-box:hover .icon i{
+        color: #6a41c9;
+    }
+    .services-box:hover .service-chamada h3{
+        color: #000000;
+        border-bottom: 1px solid #84bc01;
+    }
+    .services-box:hover .service-chamada p{
+        color: #000000;
+    }
+    .apresentaçao{
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+        padding: 30px;
+    }
+    .apresentcao-chamada{
+        width: 100%;
+        height: auto;
+    }
+    .apresentcao-chamada h1{
+        width: 50%;
+        font-size: 3rem;
+        margin: auto;
+        color: #84bc01;
+        margin-bottom: 25px;
+    }
+    .apresentcao-chamada p{
+        width: 70%;
+        margin: auto;
+        color: #2421219d;
+        font-size: clamp(1.6rem, 2rem, 3.5rem);
+    }
+    .gif{
+        top: 60px;
+        width: 80%;
+        height: 400px;
+        margin: auto;
+        position: relative;
+        transform: rotate(-30deg) skew( 25deg) scale(.8);
+    }
+    .gif img{
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: 0.5s;
+        display: block;
+    }
+    .gif:hover img:nth-child(4){
+        transform: translate(60px,-60px);
+        opacity: 1;
+    }
+    .gif:hover img:nth-child(3){
+        transform: translate(40px,-40px);
+        opacity: .8;
+    }
+    .gif:hover img:nth-child(2){
+        transform: translate(20px,-20px);
+        opacity: .6;
+    }
+    .gif:hover img:nth-child(1){
+        transform: translate(0px,-0px);
+        opacity: .2;
+    }
+    .servicos-div{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .servicos-box{
+        width: 30%;
+        padding: 30px;
+        height: auto;
+        border-radius: 12px;
+    }
+    .servicos h1{
+        width: 100%;
+        font-size: 5rem;
+        text-align: center;
+        color: #7d06df;
+        margin-bottom: 25px;
+    }
+    .servicos h1 span{
+        color: #84bc01;
+    }
+    
+}
